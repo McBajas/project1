@@ -119,7 +119,7 @@ header .user .post{
     color: #fff;
 }
 
-header.navbar{
+header .navbar{
     width:100%;
 }
 
@@ -470,109 +470,71 @@ header .navbar ul li a:hover{
   
 /* media queries */
 
-@media (max-width: 1200px){
+@media (max-width:1200px){
     html {
         font-size: 55%;
     }
 }
 
-@media (max-width: 991px){
-    .header {
-        padding: 2rem 3%;
+@media (max-width:991px){
+
+    header {
+        left:-120%;
     }
 
-.about {
-    padding: 10rem 3%;
-    }
-
-.education{
-    padding: 7rem;
-    }    
-
-.portfolio {
-    padding-bottom: 7rem;
-    }
-
-.contact {
-    min-height: auto;
-    }
-
-.footer {
-    padding: 2rem 3%;
-    }
-
-}
-
-@media (max-width: 768px) {
-    #menu-icon {
+    #menu{
         display: block;
     }
 
-    .home {
-        flex-direction: column;    
+    header.toggle{
+        left:0%;
     }
-
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-
-    .home-content h1 {
-        font-size: 5rem;
-    }
-
-    .home-img img {
-        width: 90vw;
-        margin-top: 4rem;
-    }
-    
-    .about {
-        flex-direction: column;
-    }
-
-   .about-img img{ 
-        width: 90vw;
-        margin-top: 4rem;
-   } 
-
-   .education {
-        margin-bottom: 3rem;
-   }
-
-   .portfolio h1 {
-        margin-bottom: 3rem;
-   }
-
-   .portfolio-container {
-       grid-template-columns: repeaat(2, 1fr)
-   }
 
 }
 
+@media (max-width: 768px){
 
-@media (max-width: 617px) {
-    .portfolio-container {
-        grid-template-columns: 1fr;
-    }
-
-    .home-img img {
-        width: 80vw;
-        margin: 8rem;
-    }
-
-    .about .img img {
-        width: 100vw;
-        margin-top: 4rem;
-    }
-}
-
-@media (max-width: 450px) {
     html {
         font-size: 50%;
     }
 
-    .contact form .input-box input {
-        width: 100%;
-    }
 }
 
+
+@media (max-width: 400px){
+
+    header {
+        width: 100vw;
+    }
+
+    .heading{
+        margin:0 3rem;
+    }
+
+    .about .row .counter .box{
+        width: 100%;
+    }
+
+    .education .box-container .box{
+        width: 100%;
+    }
+
+    .portfolio .box-container .box{
+        width: 100%;
+    }
+
+    .contact .row form{
+        margin:3rem 0;
+    }
+
+}
+
+
+
+
+
+
+    
+    
+    
 
