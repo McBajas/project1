@@ -474,6 +474,9 @@ header .navbar ul li a:hover{
     html {
         font-size: 55%;
     }
+     .home{
+       padding:1rem 4rem; 
+    }
 }
 
 @media (max-width:991px){
@@ -489,6 +492,9 @@ header .navbar ul li a:hover{
     header.toggle{
         left:0%;
     }
+    body{
+        padding:0;
+    }
 
 }
 
@@ -497,7 +503,7 @@ header .navbar ul li a:hover{
     html {
         font-size: 50%;
     }
-
+   
 }
 
 
@@ -528,10 +534,6 @@ header .navbar ul li a:hover{
     }
 
 }
-
-
-
-
 
 
     
